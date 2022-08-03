@@ -1,0 +1,260 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:lightblue;
+  
+  
+}
+
+
+.bg-text {
+  position: absolute; /* Position the background text */
+  top: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+  
+}
+.index{
+  position: relative; /* Stay fixed */
+  top: 240px;
+  left: 0%;
+}
+.logout {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: 10px solid #e74343;
+  position: absolute; 
+  top: 10%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 170px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+.analize {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: 10px solid #fcfafa;
+  position: absolute; 
+  top: 10%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 170px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+.delete{
+  cursor: pointer;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: 10px solid #ff0000;
+  position: absolute; 
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 170px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+
+}
+.testheat{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+  color: rgb(190, 53, 53);
+  font-weight: bold;
+  font-size: 18px;
+  border: 10px solid rgb(240, 225, 21);
+  position: absolute; 
+  top: 63%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 170px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+.export{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+  color: rgb(190, 53, 53);
+  font-weight: bold;
+  font-size: 18px;
+  border: 10px solid rgb(240, 225, 21);
+  position: absolute; 
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 170px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+.testheatadmin{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
+  color: rgb(190, 53, 53);
+  font-weight: bold;
+  font-size: 18px;
+  border: 10px solid rgb(240, 225, 21);
+  position: absolute; 
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 170px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 25px;
+  
+}
+.export:hover{
+  color: rgb(240, 225, 21);
+  background-color: rgba(117, 117, 117, 0.6); /* Black w/opacity/see-through */
+  border: 10px solid rgb(190, 53, 53);
+  }
+.testheat:hover{
+  color: rgb(240, 225, 21);
+  background-color: rgba(117, 117, 117, 0.6); /* Black w/opacity/see-through */
+  border: 10px solid rgb(190, 53, 53);
+  }
+.testheatadmin:hover{
+    color: rgb(240, 225, 21);
+    background-color: rgba(117, 117, 117, 0.6); /* Black w/opacity/see-through */
+    border: 10px solid rgb(190, 53, 53);
+}
+.delete:hover {
+  color: #ffff00;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/opacity/see-through */
+  border: 10px solid #000000;
+  }
+.analize:hover {
+  color: #ffff00;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(117, 117, 117, 0.1); /* Black w/opacity/see-through */
+  border: 10px solid #f0bfbf;
+  }
+.logout:hover {
+  color: #ffff00;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(117, 117, 117, 0.1); /* Black w/opacity/see-through */
+  border: 10px solid #f0bfbf;
+  }
+h1{
+  font-size: 2.5rem;
+  background: linear-gradient(to bottom,rgb(206, 226, 238),rgb(46, 12, 235));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 2;
+}
+.errortext{
+  font-size: 3.5rem;
+  color:  #ffff00;
+}
+
+
+
+.city {
+position: absolute;
+top: 0%;
+left: 0%;
+z-index: -2;
+opacity: 0.7;
+}
+.graph{
+position: absolute;
+top: 28%;
+left: 1%;
+z-index: 1;
+}
+.flex{
+  display: flex;
+  padding:5%;
+  padding-top:10%;
+}
+.div{
+  flex:1;
+}
+#map {height:100%; }
+.leaflet-container {
+  background: rgba(255,0,0,0.0);
+}
+.col-md-4{
+  text-align: center;
+  display: flex;
+}
+.container_map{
+  border: 10px solid black;
+  z-index: 1000;
+  height: 550px;
+  width: 100%;
+  }
+  @media screen and (max-width:1144px){
+    body{
+    }
+    .analize {
+      cursor: pointer;
+      background-color: rgb(0, 0, 0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: 10px solid #fcfafa;
+      position: absolute; 
+      top: 23%;
+      left: 85%;
+      transform: translate(-50%, -50%);
+      z-index: 1000;
+      width: 170px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 25px;
+      
+    }
+    .logout {
+      cursor: pointer;
+      background-color: rgb(0, 0, 0); /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      border: 10px solid #e74343;
+      position: absolute; 
+      top: 10%;
+      left: 85%;
+      transform: translate(-50%, -50%);
+      z-index: 1000;
+      width: 170px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 25px;
+      
+    }
+  }
